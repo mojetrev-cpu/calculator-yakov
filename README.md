@@ -1,2 +1,0 @@
-# calculator-yakov
-Калькулятор - Яков
