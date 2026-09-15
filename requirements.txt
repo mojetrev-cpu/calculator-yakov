@@ -1,0 +1,11 @@
+# Основной фреймворк для кроссплатформенного UI
+kivy==2.3.1
+
+# Зависимости, необходимые Kivy для работы на десктопе
+kivy-deps.angle==0.4.0 ; sys_platform == "win32"
+kivy-deps.glew==0.3.1  ; sys_platform == "win32"
+kivy-deps.sdl2==0.7.0  ; sys_platform == "win32"
+
+# Для сборки под Android
+buildozer==1.5.0
+cython==0.29.36
